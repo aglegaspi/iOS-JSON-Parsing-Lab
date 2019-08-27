@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JSON-Parsing-Lab/ColorDetailViewController.swift"
+            timestampString = "588635217.928461"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3"
+            endingLineNumber = "3"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JSON-Parsing-Lab/ColorDetailViewController.swift"
+            timestampString = "588635217.928822"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ColorDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JSON_Parsing_Lab.ColorDetailViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; JSON_Parsing_Lab.ColorDetailViewController"
+                  moduleName = "JSON-Parsing-Lab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agl/Documents/pursuit/labs/UnitThree/02JSON_Parsing_Lab/JSON-Parsing-Lab/JSON-Parsing-Lab/ColorDetailViewController.swift"
+                  timestampString = "588634666.618912"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JSON_Parsing_Lab.ColorDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; JSON_Parsing_Lab.ColorDetailViewController"
+                  moduleName = "JSON-Parsing-Lab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agl/Documents/pursuit/labs/UnitThree/02JSON_Parsing_Lab/JSON-Parsing-Lab/JSON-Parsing-Lab/ColorDetailViewController.swift"
+                  timestampString = "588634666.629032"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "217">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JSON_Parsing_Lab.ColorDetailViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;JSON_Parsing_Lab.ColorDetailViewController&gt;"
+                  moduleName = "JSON-Parsing-Lab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agl/Documents/pursuit/labs/UnitThree/02JSON_Parsing_Lab/JSON-Parsing-Lab/JSON-Parsing-Lab/ColorDetailViewController.swift"
+                  timestampString = "588634666.632726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JSON_Parsing_Lab.ColorDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;JSON_Parsing_Lab.ColorDetailViewController&gt;"
+                  moduleName = "JSON-Parsing-Lab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agl/Documents/pursuit/labs/UnitThree/02JSON_Parsing_Lab/JSON-Parsing-Lab/JSON-Parsing-Lab/ColorDetailViewController.swift"
+                  timestampString = "588634666.637107"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "137">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JSON_Parsing_Lab.ColorDetailViewController.__deallocating_deinit"
+                  moduleName = "JSON-Parsing-Lab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agl/Documents/pursuit/labs/UnitThree/02JSON_Parsing_Lab/JSON-Parsing-Lab/JSON-Parsing-Lab/ColorDetailViewController.swift"
+                  timestampString = "588634666.642469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -47,6 +47,28 @@ class ColorViewController: UIViewController {
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        guard let segueIdentifier = segue.identifier else {
+            fatalError("could not get segue")
+        }
+        
+        switch segueIdentifier {
+        case "ColorDetail":
+            guard let colorDetail = segue.destination as? ColorDetailViewController else {
+                fatalError("unexpected view controller segue")
+            }
+            guard let selectedIndexPath = colorTableView.indexPathForSelectedRow else {
+                fatalError("No row was selected")
+            }
+            colorDetail.color = colors[selectedIndexPath.row]
+            
+        default:
+            fatalError("Unexpected segue identifier")
+        }
+        
+    }
+    
 }
 
 extension ColorViewController: UITableViewDelegate {}
@@ -67,6 +89,5 @@ extension ColorViewController: UITableViewDataSource {
         
         return cell
     }
-    
     
 }
