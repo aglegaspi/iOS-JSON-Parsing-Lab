@@ -11,6 +11,7 @@
 		ECF31BC12315AE9300066CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF31BBF2315AE9300066CA4 /* Main.storyboard */; };
 		ECF31BC32315AE9400066CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF31BC22315AE9400066CA4 /* Assets.xcassets */; };
 		ECF31BC62315AE9400066CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF31BC42315AE9400066CA4 /* LaunchScreen.storyboard */; };
+		ECF31BD12315B6B700066CA4 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = ECF31BD02315B6B700066CA4 /* colors.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		ECF31BC22315AE9400066CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF31BC52315AE9400066CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECF31BC72315AE9400066CA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF31BD02315B6B700066CA4 /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				ECF31BCD2315AF2B00066CA4 /* Supporting Files */,
 				ECF31BBF2315AE9300066CA4 /* Main.storyboard */,
 				ECF31BC22315AE9400066CA4 /* Assets.xcassets */,
+				ECF31BD02315B6B700066CA4 /* colors.json */,
 				ECF31BC72315AE9400066CA4 /* Info.plist */,
 			);
 			path = "JSON-Parsing-Lab";
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECF31BC62315AE9400066CA4 /* LaunchScreen.storyboard in Resources */,
+				ECF31BD12315B6B700066CA4 /* colors.json in Resources */,
 				ECF31BC32315AE9400066CA4 /* Assets.xcassets in Resources */,
 				ECF31BC12315AE9300066CA4 /* Main.storyboard in Resources */,
 			);
