@@ -149,11 +149,11 @@
             </objects>
             <point key="canvasLocation" x="109" y="173"/>
         </scene>
-        <!--Item 2-->
+        <!--Weather-->
         <scene sceneID="lFw-pn-eYk">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Rj9-I7-IuL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" id="f7M-nd-2DR"/>
+                    <tabBarItem key="tabBarItem" title="Weather" id="f7M-nd-2DR"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mhW-42-Q0u">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

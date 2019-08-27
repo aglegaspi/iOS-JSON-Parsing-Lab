@@ -66,13 +66,9 @@
 			children = (
 				ECF31BCD2315AF2B00066CA4 /* Supporting Files */,
 				ECF31BBF2315AE9300066CA4 /* Main.storyboard */,
-				ECF31BD62315D0D500066CA4 /* ColorDetailViewController.swift */,
+				ECF31BDC2315EC6700066CA4 /* Color */,
 				ECF31BC22315AE9400066CA4 /* Assets.xcassets */,
-				ECF31BD02315B6B700066CA4 /* colors.json */,
-				ECF31BD22315B9AC00066CA4 /* Colors.swift */,
-				ECF31BD82315E78C00066CA4 /* weather.json */,
-				ECF31BDA2315E7B700066CA4 /* Weather.swift */,
-				ECF31BD42315C04900066CA4 /* ColorViewController.swift */,
+				ECF31BDD2315EC9E00066CA4 /* Weather */,
 				ECF31BC72315AE9400066CA4 /* Info.plist */,
 			);
 			path = "JSON-Parsing-Lab";
@@ -85,6 +81,26 @@
 				ECF31BC42315AE9400066CA4 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECF31BDC2315EC6700066CA4 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				ECF31BD62315D0D500066CA4 /* ColorDetailViewController.swift */,
+				ECF31BD02315B6B700066CA4 /* colors.json */,
+				ECF31BD22315B9AC00066CA4 /* Colors.swift */,
+				ECF31BD42315C04900066CA4 /* ColorViewController.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		ECF31BDD2315EC9E00066CA4 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				ECF31BD82315E78C00066CA4 /* weather.json */,
+				ECF31BDA2315E7B700066CA4 /* Weather.swift */,
+			);
+			path = Weather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
