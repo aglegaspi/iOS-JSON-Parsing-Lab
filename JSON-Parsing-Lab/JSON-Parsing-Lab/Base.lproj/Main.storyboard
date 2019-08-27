@@ -29,7 +29,7 @@
         <!--Color View Controller-->
         <scene sceneID="5So-jN-Oms">
             <objects>
-                <viewController id="CER-Pe-hIj" userLabel="Color View Controller" sceneMemberID="viewController">
+                <viewController id="CER-Pe-hIj" userLabel="Color View Controller" customClass="ColorViewController" customModule="JSON_Parsing_Lab" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="brX-12-1CX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,6 +75,9 @@
                         <viewLayoutGuide key="safeArea" id="o35-cA-chg"/>
                     </view>
                     <navigationItem key="navigationItem" id="cTG-aq-3Oe"/>
+                    <connections>
+                        <outlet property="colorTableView" destination="sy4-8X-6iU" id="OdU-Rr-R8f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxs-Jq-zaq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
