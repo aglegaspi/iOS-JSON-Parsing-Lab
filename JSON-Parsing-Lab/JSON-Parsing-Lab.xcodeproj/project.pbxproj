@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		ECF31BBC2315AE9300066CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF31BBB2315AE9300066CA4 /* AppDelegate.swift */; };
-		ECF31BBE2315AE9300066CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF31BBD2315AE9300066CA4 /* ViewController.swift */; };
 		ECF31BC12315AE9300066CA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF31BBF2315AE9300066CA4 /* Main.storyboard */; };
 		ECF31BC32315AE9400066CA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF31BC22315AE9400066CA4 /* Assets.xcassets */; };
 		ECF31BC62315AE9400066CA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF31BC42315AE9400066CA4 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		ECF31BB82315AE9300066CA4 /* JSON-Parsing-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON-Parsing-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF31BBB2315AE9300066CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECF31BBD2315AE9300066CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECF31BC02315AE9300066CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECF31BC22315AE9400066CA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF31BC52315AE9400066CA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				ECF31BCD2315AF2B00066CA4 /* Supporting Files */,
-				ECF31BBD2315AE9300066CA4 /* ViewController.swift */,
 				ECF31BBF2315AE9300066CA4 /* Main.storyboard */,
 				ECF31BC22315AE9400066CA4 /* Assets.xcassets */,
 				ECF31BC72315AE9400066CA4 /* Info.plist */,
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECF31BBE2315AE9300066CA4 /* ViewController.swift in Sources */,
 				ECF31BBC2315AE9300066CA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
