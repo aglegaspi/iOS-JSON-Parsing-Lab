@@ -15,6 +15,8 @@
 		ECF31BD32315B9AC00066CA4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF31BD22315B9AC00066CA4 /* Colors.swift */; };
 		ECF31BD52315C04900066CA4 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF31BD42315C04900066CA4 /* ColorViewController.swift */; };
 		ECF31BD72315D0D500066CA4 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF31BD62315D0D500066CA4 /* ColorDetailViewController.swift */; };
+		ECF31BD92315E78C00066CA4 /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = ECF31BD82315E78C00066CA4 /* weather.json */; };
+		ECF31BDB2315E7B700066CA4 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF31BDA2315E7B700066CA4 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		ECF31BD22315B9AC00066CA4 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		ECF31BD42315C04900066CA4 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		ECF31BD62315D0D500066CA4 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		ECF31BD82315E78C00066CA4 /* weather.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
+		ECF31BDA2315E7B700066CA4 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				ECF31BC22315AE9400066CA4 /* Assets.xcassets */,
 				ECF31BD02315B6B700066CA4 /* colors.json */,
 				ECF31BD22315B9AC00066CA4 /* Colors.swift */,
+				ECF31BD82315E78C00066CA4 /* weather.json */,
+				ECF31BDA2315E7B700066CA4 /* Weather.swift */,
 				ECF31BD42315C04900066CA4 /* ColorViewController.swift */,
 				ECF31BC72315AE9400066CA4 /* Info.plist */,
 			);
@@ -139,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF31BD92315E78C00066CA4 /* weather.json in Resources */,
 				ECF31BC62315AE9400066CA4 /* LaunchScreen.storyboard in Resources */,
 				ECF31BD12315B6B700066CA4 /* colors.json in Resources */,
 				ECF31BC32315AE9400066CA4 /* Assets.xcassets in Resources */,
@@ -157,6 +164,7 @@
 				ECF31BD52315C04900066CA4 /* ColorViewController.swift in Sources */,
 				ECF31BD32315B9AC00066CA4 /* Colors.swift in Sources */,
 				ECF31BD72315D0D500066CA4 /* ColorDetailViewController.swift in Sources */,
+				ECF31BDB2315E7B700066CA4 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

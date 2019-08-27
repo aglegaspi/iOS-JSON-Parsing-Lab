@@ -7,3 +7,36 @@
 //
 
 import Foundation
+
+enum WeatherJSONError: Error {
+    case decodingError(Error)
+}
+
+struct WeatherResponse: Codable {
+    let list: [List]
+}
+
+struct List: Codable {
+    let weather: Weather
+    let main: Main
+    let name: String
+    
+    static func getList(from data: Data) throws -> [List] {
+        do {
+            let weatherResponse = try JSONDecoder().decode(WeatherResponse.self, from: data)
+            return weatherResponse.list
+        } catch {
+            throw WeatherJSONError.decodingError(error)
+        }
+    }
+}
+
+struct Weather: Codable {
+    let description: String
+}
+
+struct Main: Codable {
+    let temp: Double
+}
+
+
