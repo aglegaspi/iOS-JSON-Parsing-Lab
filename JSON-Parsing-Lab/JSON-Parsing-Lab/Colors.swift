@@ -42,6 +42,10 @@ struct Fraction: Codable {
     let r: CGFloat
     let g: CGFloat
     let b: CGFloat
+    
+    func backgroundColor() -> UIColor {
+        return UIColor(red: r, green: g, blue: b, alpha: 1.0)
+    }
 }
 
 struct Name: Codable {
